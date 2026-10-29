@@ -73,3 +73,4 @@ node_modules/
 /block.bin
 /return_block.bin
 build.log
+flash.log

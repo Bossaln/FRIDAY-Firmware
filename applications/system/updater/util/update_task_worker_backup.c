@@ -13,7 +13,7 @@
 #include <toolbox/tar/tar_archive.h>
 #include <toolbox/crc32_calc.h>
 
-#define FIRSTBOOT_FLAG_PATH INT_PATH(".momentum_firstboot.flag")
+#define FIRSTBOOT_FLAG_PATH INT_PATH(".friday_firstboot.flag")
 
 #define TAG "UpdWorkerBackup"
 
