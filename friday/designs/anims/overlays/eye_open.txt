@@ -1,0 +1,6 @@
+; left eye (viewer's left), outer corner on the left. '#'=ink '.'=skin ' '=transparent
+.#######.
+#..###..#
+#.####..#
+.#.###.#.
+..#####..
