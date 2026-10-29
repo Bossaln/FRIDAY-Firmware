@@ -404,7 +404,7 @@ MomentumApp* momentum_app_alloc() {
     // Need canvas to calculate text length
     Canvas* canvas = gui_direct_draw_acquire(app->gui);
     canvas_set_font(canvas, FontPrimary);
-    if(furi_string_equal(app->version_tag, "mntm-dev")) {
+    if(furi_string_equal(app->version_tag, "friday-dev")) {
         // Add space, add commit sha
         furi_string_cat_printf(app->version_tag, " %s", version_get_githash(NULL));
         // Make uppercase
@@ -419,7 +419,7 @@ MomentumApp* momentum_app_alloc() {
         }
     } else {
         // Make uppercase, add space, add build date
-        furi_string_replace(app->version_tag, "mntm", "MNTM");
+        furi_string_replace(app->version_tag, "friday", "FRIDAY");
         furi_string_cat_printf(app->version_tag, " %s", version_get_builddate(NULL));
     }
     // Add spaces to align right
